@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="./index1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header  class="someinfo">
+        <div class="heading">
+            <h1>Online Voting System</h1>
+        </div>
+        <div class="loginAc">
+            <h4>Logout
+                <i class="fa fa-user-circle"></i>
+            </h4>
+        </div>
+    </header>
+    <section class="voting_status">
+        <div><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Voting Status</h1></div>
+        <span id="voting_status" style="font-size: 30px;">0/0</span>
+        <div>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No Status available.<br> Soon data will be available when election process is started.</p>
+        </div>
+        <div>
+            <h1>Click on  <a href="" style="text-decoration: none; color:green;">Start Voting</a> button to Start election process.<br>&nbsp;&nbsp;Click <a href="" style="text-decoration: none; color:red;">Stop Voting</a> button to stop election process</h1>
+        </div>
+    </section>
+    <section class="otp_generator">
+        <h4>Generator</h4>
+        <h5>Generator verification code</h5>
+        <button class="button" onclick="generateOTP()" >Generate</button>
+        <p id="otp"></p>
+        <h5 style="color:red;">Please do not share this OTP</br> with anyone!</h5>
+    </section>
+    
+<script src="./index1.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistration Page</title>
+    <link rel="stylesheet" href="./index2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Register Form</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Title</span>
+                    <input type="text" placeholder="Enter your title" required>
+                </div>
+                <div class="input-box">
+                    <span class="details" id=" uname">Name</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="number" placeholder="Enter your phone-number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Adhar-Number</span>
+                    <input type="text" placeholder="Enter your Adharnumber" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" placeholder="Enter your Password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Address</span>
+                    <input type="text" placeholder="Enter your Address" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">OTP</span>
+                    <input type="password" placeholder="Enter your OTP" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot-one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot-one"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot-one"></span>
+                        <span class="gender">Trangender</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <button type="submit" class="btn" onclick="information()"> Register</button>
+            </div>
+        </form>
+    </div>
+    <script src="./index3.js"></script>
+</body>
+</html>
